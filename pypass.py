@@ -1,3 +1,6 @@
+#!/usr/bin/env python3.6
+# coding: utf-8
+
 import re
 import click
 
@@ -5,6 +8,17 @@ import click
 
 # TODO: import twitter api
 # import tweepy
+
+
+def print_banner():
+    banner = '''
+    |ooooo
+    |    0
+    |00000
+    |
+    |
+    '''
+    print(banner)
 
 
 def validate_email(ctx, param, value):
@@ -57,4 +71,5 @@ def pypass(fullname, nickname, email, twitter, instagram, facebook, outfile):
 
 
 if __name__ == '__main__':
+    print_banner()
     pypass()
