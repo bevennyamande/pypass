@@ -10,15 +10,13 @@ import click
 # import tweepy
 
 
-def print_banner():
-    banner = '''
-    |ooooo
-    |    0
-    |00000
-    |
-    |
-    '''
-    print(banner)
+banner = '''
+ _ __  _   _ _ __   __ _ ___ ___
+| '_ \\| | | | '_ \\/ _` / __/ __|
+| |_) || |_| | |_) | (_|\\__ \\__ \
+| .__/ \\__, | .__/ \\__,_|___/___/
+|_|    |___/|_|
+'''
 
 
 def validate_email(ctx, param, value):
@@ -71,5 +69,5 @@ def pypass(fullname, nickname, email, twitter, instagram, facebook, outfile):
 
 
 if __name__ == '__main__':
-    print_banner()
+    click.echo(banner)
     pypass()

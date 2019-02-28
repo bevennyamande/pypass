@@ -1,8 +1,9 @@
-# pypass
+![pypass](./logo.png)
 
-[Read the Article] (https://medium.com/@tsitsimunikwa97/pypass-a-beginner-level-password-compiler-4922b5a7e04f)
 
 ## about
+
+[Article] (https://medium.com/@tsitsimunikwa97/pypass-a-beginner-level-password-compiler-4922b5a7e04f)
 
 Weak passwords can be defined as short, those that use only alphanumeric characters or one that is "obvious". 
 When a password is obvious it means it's easy to remember for that person, 
